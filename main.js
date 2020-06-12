@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     getVisitCount();
 });
 
-const apiGateway = 'https://0ks1n50x2b.execute-api.us-east-2.amazonaws.com/Prod/visitor/'; 
+const apiGateway = 'https://gkt25sgaaa.execute-api.us-east-2.amazonaws.com/Prod/visitor/'; 
 
 const getVisitCount = () => {
     console.log('api to get visit count');
@@ -12,7 +12,7 @@ const getVisitCount = () => {
 }
 
 const getCountApi = () => {
-    let count;
+    let count = 0;
     fetch(apiGateway, {
         mode: 'cors',
     })

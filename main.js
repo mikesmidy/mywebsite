@@ -15,6 +15,7 @@ const getVisitCount = () => {
     .then(res => {
         const count = res.Attributes.visitcount;
         document.getElementById('counter').innerText =count;
+        document.getElementById('visitorElem').style.display = 'block';
     })
     return count;
 }

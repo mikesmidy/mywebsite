@@ -1,11 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Bolaji's Portfolio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	
 	<!--[if lt IE 9]>
@@ -13,9 +13,68 @@
 	<![endif]-->
 </head>
 <body>
-	<h1>Under Construction</h1>
-	<h2>I'm seriously working on building my portfolio page!</h2>
-	<img class="illustration" src="under-construction-illustration.svg" alt="Under Construction Illustration">
-	<p>Check back later !!!</p>	
+    <!-- Page Content -->
+<div class="container">
+
+        <!-- Page Heading -->
+        <h1 class="my-4">Bolaji's Portfolio
+        </h1>
+      
+        <h3><small>Personal Projects</small></h3>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top border border-primary" src="rubix.jpg" height="500px" width="300px" alt=""></a>
+                    <div class="card-body border border-dark">
+                        <h4 class="card-title text-secondary">
+                        <a href="https://apprubix.herokuapp.com">Rubix</a>
+                        </h4>
+                        <p class="card-text" style="min-height: 350px">Rubix is a social media platform PWA built with Laravel and VueJs. Basic functionalities allows you to create post, like, comment and share posts of friends in real time, search users, check a user's profile, edit your profile, send connect requests, accept or decline connect requests, block connects, message connects, view suggestions of people you may know based on mutual connects and location all in real time.</p>
+                        <div class="d-flex">
+                            <a href="https://github.com/akandeBolaji/rubix" class="btn btn-secondary">See Code</a>
+                            <a href="https://apprubix.herokuapp.com" class="btn btn-secondary ml-auto">Go Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top border border-primary" src="map.jpeg" height="500px" width="300px" alt=""></a>
+                    <div class="card-body border border-dark">
+                        <h4 class="card-title text-secondary">
+                        <a href="https://order-app.herokuapp.com">Map App</a>
+                        </h4>
+                        <p class="card-text" style="min-height: 350px"> Map App was built with Laravel and VueJs. Its functionalities includes using the GoogleMaps and GoogleMaps autocomplete API to get pickup and drop off locations and show on the Map, Pickup and Dropoff Locations are within 50km apart, User can select current location and address is gotten using geolocation and reverse geocoding. A unique functionality is storing the autocomplete results in a database which saves costs for subsequent calls.</p>
+                        <div class="d-flex">
+                            <a href="https://github.com/akandeBolaji/order-app" class="btn btn-secondary">See Code</a>
+                            <a href="https://order-app.herokuapp.com" class="btn btn-secondary ml-auto">Go Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top border border-primary" src="market.jpeg" height="500px" width="300px" alt=""></a>
+                    <div class="card-body border border-dark">
+                        <h4 class="card-title text-secondary">
+                        <a href="https://mini-hub.herokuapp.com">Market Bank</a>
+                        </h4>
+                        <p class="card-text" style="min-height: 350px"> Market Bank was built with Laravel and VueJs. Its functionalities includes login functionalities, basic CRUD to create market with images alongside location using geocoding and reverse geocoding. The markets can then be searched using the name, category or the nearest market to the user using the user's geolocation.</p>
+                        <div class="d-flex">
+                            <a href="https://github.com/akandeBolaji/mini-market" class="btn btn-secondary">See Code</a>
+                            <a href="https://mini-hub.herokuapp.com" class="btn btn-secondary ml-auto">Go Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <h5>Still Under Construction</h5>
+        <h6>Check Back Later for more Projects !!</h6>
+        <img class="illustration" src="under-construction-illustration.svg">
+</div>
+<!-- /.container -->
+     
 </body>
 </html>
